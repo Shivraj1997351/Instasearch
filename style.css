@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, Sans-Serif;
+    background-color: floralwhite;
+    background-image: url('pic.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-image: none;
+    background-color: rgb(36, 91, 112);
+    color: #fff;
+}
+
+  #name {
+    border-radius: 4px;
+    border: 1px solid #ff9800;
+    padding: 2px 8px;
+  }
+  #chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: green;
+    height: 300px;
+    width: 530px;
+    border: 1px solid #a7a7a7;
+    overflow: auto;
+    border-radius: 4px;
+    border-bottom: 4px solid #a7a7a7;
+  }
+  #usermsg {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #ff9800;
+  }
+#submitmsg{
+    background: #ff9800;
+    border: 2px solid #e65100;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+
+
+.flex-container {
+    display: flex;
+    background-color: blue;
+    width: 340px;
+}
+
+.form {
+    width: 300px;
+    margin-left: 300px;
+}
+
+.flex-container>div {
+    margin: 20px;
+    width: 70px;
+}
+
+.imgcontainer {
+    text-align: left;
+    margin: 15px 0 10px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+a {
+    color: white;
+    background-color: #f44336;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 25px;
+}
+
+.pa {
+    background-color: none;
+    text-decoration: none;
+}
+
+.pa:hover {
+    text-decoration: none;
+    background-color: none;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+#main div {
+    margin: 5px;
+    width: 130px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+    width: 200px;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+input[type='submit'] {
+    padding: 10px 25px 8px;
+    color: #fff;
+    background-color: #0067ab;
+    text-shadow: rgba(0, 0, 0, 0.24) 0 1px 0;
+    font-size: 16px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0 2px 0 0 inset, #fff 0 1px 0 0;
+    border: 1px solid #0164a5;
+    border-radius: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #024978;
+}
+
+.card {
+    width: 28rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(12, 16, 31, 0.4);
+    margin: 20px 40px;
+    height: 500px;
+}
